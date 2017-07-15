@@ -13,5 +13,10 @@ namespace WebCalculadora
         {
 
         }
+
+        protected void btnEnviar_Click(object sender, EventArgs e)
+        {
+            this.Page.Response.Write("<script language='JavaScript'>window.alert('Hola pinche putita');</script>");
+        }
     }
 }
